@@ -1,0 +1,31 @@
+.facts {
+  max-width: 700px;
+  padding: 0 20px 0 20px;
+}
+.title {
+  padding-bottom: 50px;
+}
+@media screen and (max-width: 600px) {
+  .title {
+    padding-bottom: 20px;
+    font-size: 26px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .title {
+    padding-bottom: 10px;
+  }
+}
+.facts-list {
+  font-size: 25px;
+}
+@media screen and (max-width: 600px) {
+  .facts-list {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .facts-list {
+    font-size: 15px;
+  }
+}
