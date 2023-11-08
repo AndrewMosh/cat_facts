@@ -1,6 +1,7 @@
 import { useQuery } from "react-query";
 import axios from "axios";
 import "./facts.css";
+import React from "react";
 const fetchUsers = async () => {
   const response = await axios.get("https://catfact.ninja/fact");
   return response.data.fact;
